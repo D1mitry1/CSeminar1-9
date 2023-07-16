@@ -18,8 +18,8 @@ Console.WriteLine($"A random three-digit number{number} is {result}");
 
 int RemoveSecondDigit(int num)
 {
- int firstDigit = num / 100;
-int thirdDigit = num % 10;
-int resultDigit = firstDigit * 10 + thirdDigit;
-return resultDigit;
+    int firstDigit = num / 100;
+    int thirdDigit = num % 10;
+    int resultDigit = firstDigit * 10 + thirdDigit;
+    return resultDigit;
 }
