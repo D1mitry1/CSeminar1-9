@@ -11,7 +11,7 @@
 
 
 int rows = ReadInt("Enter the number of rows: ");
-int colums = ReadInt("Enter the number of colums: ");
+int columns = ReadInt("Enter the number of columns: ");
 
 int[,] numbers = new int[rows, colums];
 
@@ -37,7 +37,7 @@ void FillArray2D(int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            array[i, j] = new Random().Next(1, 10) / 1;
         }
     }
 }
